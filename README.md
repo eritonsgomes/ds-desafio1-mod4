@@ -21,3 +21,7 @@ JPA, Consultas SQL e JPQL
 **Projetos do Capítulo 4**
 
 > ds-desafio1-mod4
+
+### Outros Capítulos
+
+[Desafios da Formação](https://github.com/eritonsgomes/ds-challenges-java-spring-professional)
