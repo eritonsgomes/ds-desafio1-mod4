@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "a39a2ad1-8cd7-439d-adf6-dc209a0e0fd0",
+		"name": "Desafio Consulta Vendas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41733303"
+	},
+	"item": [
+		{
+			"name": "Sale by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/sales/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"sales",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Report (test 1)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/sales/report",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"sales",
+						"report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Report (test 2)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/sales/report?minDate=2022-05-01&maxDate=2022-05-31&name=odinson",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"sales",
+						"report"
+					],
+					"query": [
+						{
+							"key": "minDate",
+							"value": "2022-05-01"
+						},
+						{
+							"key": "maxDate",
+							"value": "2022-05-31"
+						},
+						{
+							"key": "name",
+							"value": "odinson"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Summary (test 1)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/sales/summary?minDate=2022-01-01&maxDate=2022-06-30",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"sales",
+						"summary"
+					],
+					"query": [
+						{
+							"key": "minDate",
+							"value": "2022-01-01"
+						},
+						{
+							"key": "maxDate",
+							"value": "2022-06-30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Summary (test 2)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/sales/summary",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"sales",
+						"summary"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
