@@ -20,4 +20,4 @@ JPA, Consultas SQL e JPQL
 
 **Projetos do Capítulo 4**
 
-> ds-desafio1-mod4 ([ds-desafio1-mod4](https://github.com/eritonsgomes/ds-desafio1-mod4))
+> ds-desafio1-mod4
